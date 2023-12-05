@@ -138,7 +138,6 @@ insert into peopleskills (people_id,skills_id) values
     (5, 3),
     (5, 6),
     (6, 2),
-    (6, 1),
     (6, 3),
     (6, 4),
     (7, 3),
@@ -154,9 +153,6 @@ insert into peopleskills (people_id,skills_id) values
     (10, 1),
     (10, 4),
     (10, 5);
-
-insert into peopleskills (people_id,skills_id) values
-    (6,1);
 
 select * from peopleskills;
 select count(*)from peopleskills;
