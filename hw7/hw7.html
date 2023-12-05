@@ -3389,14 +3389,28 @@ z-index: 1000;
 <pre class="mermaid mermaid-js">erDiagram
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
-    CUSTOMER{
+       CUSTOMER{
         int id
         string first_name
         string last_name
     }
     DELIVERY-ADDRESS {
         int id
+        string street_address
+        string city
+        string state
+        string postal_code
+        string country
+        string contact_name
+        string contact_phone
+        string special_instructions
+        boolean is_default
+    }
+    ORDER {
+        int order_id
         date order_date
+        string order_status
+        int total_amount
     }
 </pre>
 </div>
