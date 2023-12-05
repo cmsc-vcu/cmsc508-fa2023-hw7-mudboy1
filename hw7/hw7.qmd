@@ -111,6 +111,7 @@ erDiagram
     }
     DELIVERY-ADDRESS {
         int id
+        date order_date
     }
 ```
 

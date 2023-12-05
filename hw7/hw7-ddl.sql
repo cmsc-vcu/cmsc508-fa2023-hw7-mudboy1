@@ -127,7 +127,7 @@ create table peopleskills (
 # Note that no one has yet acquired skills 7 and 8.
 
 insert into peopleskills (people_id,skills_id) values
-   (1, 1),
+    (1, 1),
     (1, 3),
     (1, 6),
     (2, 3),
